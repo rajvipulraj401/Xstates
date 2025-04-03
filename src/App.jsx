@@ -152,6 +152,20 @@ const App = () => {
             {/* Map and fill the option values from the API of  */}
           </select>
         </div>
+
+        <div hidden={selectedCity == ""}>
+          {/* so i used hidden = true /false so when
+              we have selectedCity then only it will be shown else hidden */}
+          <h3
+            style={{
+              textAlign: "center",
+            }}
+          >
+            {`You selected `}
+            <b style={{ fontSize: "25px" }}>{selectedCity}</b>
+            {`, ${selectedState}, ${selectedCountry}`}
+          </h3>
+        </div>
       </div>
     </>
   );
