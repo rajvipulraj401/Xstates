@@ -5,15 +5,39 @@
 
 /* --------------Delete below css----------------- */
 
-.card-container {
+h1 {
+  font-size: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+.select-container {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
 }
-.cards {
+
+.select {
+  border: 2px solid red;
+  border-radius: 10px;
+  min-width: 200px;
+  min-height: 50px;
+
+  gap: 10px;
+  text-align: center;
+}
+
+.select {
+  color: gray; /* Placeholder color */
+}
+
+.select option {
+  color: black; /* Normal options ka color */
+}
+
+/* .cards {
   height: 130px;
   border: 2px solid red;
   border-radius: 10px;
@@ -29,4 +53,4 @@
 .cards img {
   height: 65%;
   width: 70%;
-}
+} */
